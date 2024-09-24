@@ -1,0 +1,7 @@
+package com.arepas.app.repository;
+
+import com.arepas.app.model.Order;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderRepository extends JpaRepository<Order, Long> {
+}
